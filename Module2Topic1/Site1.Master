@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Module2Topic1.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Reflection</title>
+    <link href="css/my.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <header id="header">
+        <h1>Reflection</h1>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li><a href="Exercise1.aspx">Exercise 1</a></li>
+            <li><a href="Exercise2.aspx">Exercise 2</a></li>
+            <li><a href="Exercise3.aspx">Exercise 3</a></li>
+            <li><a href="Exercise4.aspx">Exercise 4</a></li>
+            <li><a href="Exercise5.aspx">Exercise 5</a></li>
+        </ul>
+    </nav>
+    
+    <div id="divContent">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+
+    <footer id="footer">
+        copyright Vince Joseph Arbutante 2024
+    </footer>
+
+    <form id="form1" runat="server">
+    </form>
+</body>
+</html>
